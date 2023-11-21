@@ -35,7 +35,7 @@ include_directories("${OPENGL_CUSTOM_INCLUDES}")
 
 # 添加 GLFW3 预编译库
 add_library(glfw SHARED IMPORTED)
-SET_TARGET_PROPERTIES(glfw PROPERTIES IMPORTED_LOCATION "${GLFW_HOME}/lib-universal/libglfw.3.dylib")
+SET_TARGET_PROPERTIES(glfw PROPERTIES IMPORTED_LOCATION "${GLFW_HOME}/lib-x86/libglfw.3.dylib")
 
 # 编译 GLAD 库
 add_library(glad SHARED "${GLAD_HOME}/src/glad.c")

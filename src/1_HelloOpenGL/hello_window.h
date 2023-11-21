@@ -11,7 +11,6 @@
 #include <GLFW/glfw3.h>
 
 
-
 class hello_window {
 public:
     static int create_a_window();

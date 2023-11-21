@@ -14,5 +14,5 @@ uniform sampler2D t;
 // 如果是1.0，会返回第二个输入值。
 // 0.2会返回 80%的第一个输入颜色 和 20%的第二个输入颜色，即返回两个纹理的混合色。
 void main(){
-    FragColor = mix(texture(t, TexCoord), texture(t, TexCoord), mixValue);
+  FragColor = mix(texture(t, TexCoord), texture(t, TexCoord), mixValue);
 }
